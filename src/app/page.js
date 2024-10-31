@@ -100,7 +100,7 @@ export default function Home() {
       {/* Botón para generar un número nuevo */}
       <button
         id="btnGenerar"
-        className="bg-green-400 w-[10vw] text-3xl hover:scale-[2] rounded-full aspect-square font-black font-mono absolute bottom-0 right-0 translate-x-[20%] translate-y-[20%] rotate-[-25deg] transition-all text-white uppercase"
+        className="bg-green-400 w-[10vw] text-3xl hover:scale-[2] rounded-full aspect-square font-black font-mono absolute bottom-0 right-0 translate-x-[20%] translate-y-[20%] transition-all text-white uppercase"
         onClick={generateBingoNumber}
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="size-[5rem] w-full" viewBox="0 0 48 48"><path fill="white" stroke="white" stroke-linejoin="round" stroke-width="0" d="M30 4H18v14H4v12h14v14h12V30h14V18H30z"/></svg>
@@ -108,7 +108,7 @@ export default function Home() {
 
       {/* Botón para reiniciar el juego */}
       <button
-        className="bg-red-500 w-[10vw] text-3xl rounded-full aspect-square font-black font-mono absolute bottom-0 left-0 translate-x-[-20%] translate-y-[20%] transition-all  rotate-[25deg] hover:scale-110 hover:text-white"
+        className="bg-red-500 w-[10vw] text-3xl rounded-full aspect-square font-black font-mono absolute bottom-0 left-0 translate-x-[-20%] translate-y-[20%] transition-all  hover:scale-110 hover:text-white"
         onClick={resetGame}
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="size-[5rem] w-full" viewBox="0 0 20 20"><path fill="white" d="M15.65 4.35A8 8 0 1 0 17.4 13h-2.22a6 6 0 1 1-1-7.22L11 9h7V2z"/></svg>
